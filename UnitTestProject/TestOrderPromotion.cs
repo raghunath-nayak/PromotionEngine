@@ -15,18 +15,11 @@ namespace UnitTestProject
         public void TestInitialize()
         {
             _ruleset = new RuleSet();
-            /*
-            _ruleset.AddRule(new PromoRule('A', 1, 50));
-            _ruleset.AddRule(new PromoRule('B', 1, 30));
-            _ruleset.AddRule(new PromoRule('C', 1, 20));
-            _ruleset.AddRule(new PromoRule('D', 1, 15));
-            */
             Tuple<char, int>[] itemCountPairList = new Tuple<char, int>[]
-       {
+            {
                 new Tuple<char, int>('C',1),
                 new Tuple<char, int>('D',1)
-       };
-            // _ruleset.Reset();
+            };
             _ruleset.AddRule(new PromoRule(itemCountPairList, 30));
 
             _ruleset.AddRule(new PromoRule('A', 3, 130));
@@ -79,3 +72,4 @@ namespace UnitTestProject
         }
     }
 }
+ 

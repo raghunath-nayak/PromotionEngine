@@ -16,7 +16,6 @@ namespace PromotionEngine.Core
             Value = 0;
             ItemsUsed = null;   
         }
-
     }
 }
         

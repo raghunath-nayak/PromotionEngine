@@ -44,7 +44,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rules\IPromoRule.cs" />
     <Compile Include="Rules\OrderValueCalculator.cs" />
-    <Compile Include="Rules\PromoMultipleItemRule.cs" />
     <Compile Include="Rules\PromoRule.cs" />
     <Compile Include="Rules\RuleSet.cs" />
   </ItemGroup>

@@ -62,7 +62,7 @@ namespace PromotionEngine.Rules
                 ruleResult = this._ruleset.ExecuteRules(items.ToArray());
             }
 
-            //calculate order total value;
+            //calculate order total value
             int totalOrderValue = promoValue + CalculateNonPromoValue(items.ToArray());
 
             return totalOrderValue;
